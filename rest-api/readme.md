@@ -16,7 +16,7 @@ With this in mind, we encourage API First as our key engineering principles. We 
 - API needs to be secured
 
 - Additional Reads
-    - Refer to <a href="(https://cloud.google.com/files/apigee/apigee-api-best-practices-ebook.pdf" target="_blank">APIGee API documentation</a>
+    - Refer to <a href="https://cloud.google.com/files/apigee/apigee-api-best-practices-ebook.pdf" target="_blank">APIGee API documentation</a>
 
 # 3. General Guidelines
 
@@ -101,6 +101,8 @@ Use standard HTTP Status Codes for success and error handling <a href="https://e
 - Redirection (300 - 399)
 - Client Error (400 - 499)
 - Server Error (500 - 599)
+
+Do not include sensitive information (e.g. method/class names) in the error response message.
 
 ## 4.8 HTTP Headers
 We may use standard headers as defined in the <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" target="_blank">list</a>.
