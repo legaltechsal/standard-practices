@@ -151,11 +151,17 @@ Content-Type: application/json
   "items": [
     {
         "id": 1,
-        "fullname": "John Doe"
+        "dateOfBirth": "2000-01-01T08:00:00.000Z",
+        "fullname": "John Doe",
+        "creditBalance": 9.99,
+        "isAdministrator": false
     }, ...
     {
         "id": 25,
-        "fullname": "Jack Black"
+        "dateOfBirth": "1969-08-28T16:00:00.000Z",
+        "fullname": "Jack Black",
+        "creditBalance": 9999.99,
+        "isAdministrator": true
     }
   ]
 }
